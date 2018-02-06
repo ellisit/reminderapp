@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Alarm</title>
+
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/cover.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="site-wrapper">
+      <div class="site-wrapper-inner">
+        <div class="cover-container">
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand"></h3>
+              <nav>
+                <ul class="nav masthead-nav">
+                  <li class="active"><span class="glyphicon glyphicon-bell"></span> Wake-Me-Up <span class="glyphicon glyphicon-bell"></span></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+
+          <div class="inner cover">
+            
+            <br><br>
+            <p class="lead" id="timeDisp"></p>
+
+            <p class="lead" id="getTime">
+              <input type="Time" id="clock" name="clock" class="btn btn-default" value="00:00" required> 
+            </p>
+
+            <br><br>
+            <p class="lead">
+              <input class="btn btn-lg btn-default" id="set" type="submit" value="Set Alarm"  />
+            </p>
+          </div>
+
+          <div class="mastfoot" id="timeset"> TIME SET </div>
+          <div class="alarm" id="alarm">
+          </div>
+          <div type="text" name=" delete" value=" X "> </div>
+        </div>
+
+      </div>
+
+    </div>
+   
+        <script type="text/javascript" src="cordova.js"></script>
+       <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+       <script type="text/javascript" src="js/popper.min.js"></script>
+       <script type="text/javascript" src="js/bootstrap.min.js"></script>
+       <script type="text/javascript" src="js/index.js"></script>
+
+  </body>
+</html>
